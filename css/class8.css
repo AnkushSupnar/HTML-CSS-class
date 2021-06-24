@@ -1,0 +1,49 @@
+body{
+    padding: 100px 500px;
+}
+.container{
+    background-color:#01579b ;
+    width: 400px;
+    height:500px;
+    /*margin-left: 300px;*/
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.title h1{
+    color: white;
+}
+.inputs{
+    color: white;
+}
+.inputs label{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.inputs input{
+    margin-left: 10px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #43a047;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+#btndiv{
+    
+    padding-top: 20px;
+}
+button[type=submit]{
+    color:white;
+    width: 40%;
+    font-size: 20px;
+    background-color: #cddc39;
+}
+button[type=reset]
+{
+    color: white;
+    width: 40%;
+    font-size: 20px;
+    background-color: #d50000;
+}

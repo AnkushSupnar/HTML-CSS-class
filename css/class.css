@@ -1,0 +1,32 @@
+body{
+    background-color: #fff;
+}
+p{
+    color: brown;
+}
+.class1{
+    color:blue;
+}
+#id1{
+    color: #cddc39;
+}
+*{
+    color: #cddc39;
+}
+.container{
+    background-color: blanchedalmond;
+    width: 50%;
+    height: 50%;
+}
+/*
+p,h1,h2,h3{
+    margin: 10px 0px;
+    color: black !important;
+}
+*/
+div,p,h1,h2,h3{
+    
+}
+.container p,h1,h2,h3{
+    color: darkgreen !important;
+}
